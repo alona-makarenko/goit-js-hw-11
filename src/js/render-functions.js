@@ -61,7 +61,6 @@ function showLoader() {
 }
 
 function hideLoader() {
-  const loader = document.querySelector('.loader');
   if (!loader) {
     return;
   }
