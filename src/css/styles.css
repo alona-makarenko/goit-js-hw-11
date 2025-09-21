@@ -94,7 +94,7 @@ button:disabled {
   height: 48px;
 }
 
-.ball-spin-fade-loader > div {
+.ball-spin-fade-loader > span {
   position: absolute;
   width: 8px;
   height: 8px;
@@ -107,35 +107,35 @@ button:disabled {
 }
 
 /* Розподіл 8 кульок по колу */
-.ball-spin-fade-loader > div:nth-child(1) {
+.ball-spin-fade-loader > span:nth-child(1) {
   transform: translate(-50%, -50%) rotate(0deg) translate(0, -18px);
   animation-delay: -0s;
 }
-.ball-spin-fade-loader > div:nth-child(2) {
+.ball-spin-fade-loader > span:nth-child(2) {
   transform: translate(-50%, -50%) rotate(45deg) translate(0, -18px);
   animation-delay: -0.125s;
 }
-.ball-spin-fade-loader > div:nth-child(3) {
+.ball-spin-fade-loader > span:nth-child(3) {
   transform: translate(-50%, -50%) rotate(90deg) translate(0, -18px);
   animation-delay: -0.25s;
 }
-.ball-spin-fade-loader > div:nth-child(4) {
+.ball-spin-fade-loader > span:nth-child(4) {
   transform: translate(-50%, -50%) rotate(135deg) translate(0, -18px);
   animation-delay: -0.375s;
 }
-.ball-spin-fade-loader > div:nth-child(5) {
+.ball-spin-fade-loader > span:nth-child(5) {
   transform: translate(-50%, -50%) rotate(180deg) translate(0, -18px);
   animation-delay: -0.5s;
 }
-.ball-spin-fade-loader > div:nth-child(6) {
+.ball-spin-fade-loader > span:nth-child(6) {
   transform: translate(-50%, -50%) rotate(225deg) translate(0, -18px);
   animation-delay: -0.625s;
 }
-.ball-spin-fade-loader > div:nth-child(7) {
+.ball-spin-fade-loader > span:nth-child(7) {
   transform: translate(-50%, -50%) rotate(270deg) translate(0, -18px);
   animation-delay: -0.75s;
 }
-.ball-spin-fade-loader > div:nth-child(8) {
+.ball-spin-fade-loader > span:nth-child(8) {
   transform: translate(-50%, -50%) rotate(315deg) translate(0, -18px);
   animation-delay: -0.875s;
 }
